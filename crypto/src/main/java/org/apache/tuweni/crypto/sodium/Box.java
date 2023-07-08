@@ -1253,8 +1253,8 @@ public final class Box implements AutoCloseable {
     }
   }
 
-  @Override
-  protected void finalize() {
-    close();
-  }
+  //@Override
+  //protected void finalize() {
+  //close();
+  //}
 }

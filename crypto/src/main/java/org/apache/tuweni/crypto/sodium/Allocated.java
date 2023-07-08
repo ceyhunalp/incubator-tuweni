@@ -112,10 +112,10 @@ public final class Allocated implements Destroyable {
     return Sodium.reify(ptr, length);
   }
 
-  @Override
-  protected void finalize() {
-    Sodium.sodium_free(ptr);
-  }
+  //@Override
+  //protected void finalize() {
+  //Sodium.sodium_free(ptr);
+  //}
 
   @Override
   public boolean equals(Object obj) {

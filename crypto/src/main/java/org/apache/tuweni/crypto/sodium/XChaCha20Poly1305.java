@@ -558,10 +558,10 @@ public final class XChaCha20Poly1305 {
       this.state = state;
     }
 
-    @Override
-    protected void finalize() {
-      destroy();
-    }
+    //@Override
+    //protected void finalize() {
+    //destroy();
+    //}
 
     @Override
     public void destroy() {
@@ -847,10 +847,10 @@ public final class XChaCha20Poly1305 {
       this.state = state;
     }
 
-    @Override
-    protected void finalize() {
-      destroy();
-    }
+    //@Override
+    //protected void finalize() {
+    //destroy();
+    //}
 
     @Override
     public void destroy() {

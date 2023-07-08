@@ -472,10 +472,10 @@ public final class KeyExchange {
       this.length = length;
     }
 
-    @Override
-    protected void finalize() {
-      destroy();
-    }
+    //@Override
+    //protected void finalize() {
+    //destroy();
+    //}
 
     @Override
     public void destroy() {
